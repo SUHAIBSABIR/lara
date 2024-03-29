@@ -30,8 +30,15 @@ nav {
     /* height: 80%; */
     background-color: rgb(57, 151, 151);
     position: absolute;
+    bottom: 0%;
+    border-bottom: 3px solid darkorchid;
+    transition: all ease 0.7s;
+}
+
+nav:hover #nav-bottom {
     bottom: -80%;
-    border-bottom: 1px solid darkorchid;
+    background-color: #d0ebdc;
+    height: 100%;
 }
 
 #nav-2 {
