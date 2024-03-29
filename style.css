@@ -19,7 +19,7 @@ nav {
     justify-content: space-between;
     padding: 2vw 4vw;
     position: fixed;
-    /* z-index: 1; */
+    /* z-index: -1; */
     color: #fff;
     /* border-bottom: 1px solid #fff; */
 
@@ -31,14 +31,19 @@ nav {
     background-color: rgb(57, 151, 151);
     position: absolute;
     bottom: 0%;
-    border-bottom: 3px solid darkorchid;
+    border-bottom: 3px solid #fff;
     transition: all ease 0.7s;
 }
 
+/* 
 nav:hover #nav-bottom {
     bottom: -80%;
     background-color: #d0ebdc;
     height: 100%;
+} */
+
+#nav-2:hover h4 {
+    opacity: 12;
 }
 
 #nav-2 {
